@@ -1,0 +1,159 @@
+.container {
+  /* max-width: 1080px; */
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  margin: 0 auto;
+}
+/* about.css */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+/* ------------------- */
+.gallery {
+  margin-left: 10px;
+  display: grid;
+  border-radius: 50%;
+}
+.gallery > img {
+  width: 300px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 2%;
+  cursor: pointer;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  z-index: 0;
+  transition: 0.3s, z-index 0s 0.3s;
+}
+
+/* ------------- */
+
+.about-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.about-info {
+  margin-bottom: 40px;
+}
+
+.about-discription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-info a{
+    margin-top: 10px;
+}
+.about-info a:hover{
+    background-color: #007bff;
+    color: #ffffff;
+    transition: 0.2s linear;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a2effe;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-data {
+  margin-bottom: 20px;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skills-name {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.skills-number {
+  font-size: 1rem;
+  color: #555;
+}
+
+.skills-bar {
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.skills-percentage {
+  display: block;
+  height: 100%;
+  width: 80%; /* Adjust the width based on the skill percentage */
+  background-color: #007bff; /* Change the color based on the skill */
+  border-radius: 5px;
+}
+/* ------------------------------ */
+.ido {
+  display: flex;
+  margin-top: 60px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.mz {
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .mz img {
+    width: 50px; /* Adjust the image width as needed */
+    height: auto;
+    margin-right: 8px;
+  }
+  
+  .mz-title {
+    flex-grow: 1; /* Allow the title div to grow to fill remaining space */
+  }
+  
+  .mz-title h3 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  
+  .mz-title p {
+    margin: 2px 0 0; /* Adjust top margin as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+    color: #797979; /* Adjust the text color as needed */
+  }
+  
