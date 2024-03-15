@@ -48,10 +48,12 @@ const Contact = () => {
 
         <div className="top_btn">
           <button class="button-23" role="button">
-            Send via Email
+            <a href="mailto:10millionvibration@gmail.com?subject=Contact%20With sandeep&body=Type Your%20Message">
+              Send via Email
+            </a>
           </button>
           <button class="button-23" role="button">
-            Call me
+            <a href="tel:+918433384179">Call me</a>
           </button>
         </div>
 
