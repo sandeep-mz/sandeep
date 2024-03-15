@@ -19,14 +19,14 @@ const Navbar = ({ children }) => {
       icon: <BsFillPersonFill />,
     },
     {
-      path: "/Contact",
-      name: "Contact",
-      icon: <FaEnvelope />,
-    },
-    {
       path: "/Resume",
       name: "Resume",
       icon: <FaFileAlt />,
+    },
+    {
+      path: "/Contact",
+      name: "Contact",
+      icon: <FaEnvelope />,
     },
     // Heading and social media links
     {

@@ -59,22 +59,7 @@
   color: #333;
 }
 
-.about-info a{
-    margin-top: 10px;
-}
-.about-info a:hover{
-    background-color: #007bff;
-    color: #ffffff;
-    transition: 0.2s linear;
-}
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #a2effe;
-  color: #000000;
-  text-decoration: none;
-  border-radius: 5px;
-}
+
 
 .about-skills {
   display: flex;

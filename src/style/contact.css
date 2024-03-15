@@ -1,0 +1,137 @@
+/* contact.css */
+
+.cont-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.contact-image img {
+  max-width: 100%; /* Adjust the maximum width as needed */
+  height: auto; /* Ensure the aspect ratio is maintained */
+  margin-right: 20px;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-text p {
+  margin-top: 20px;
+}
+.top_btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.button-70 {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-70:hover
+{
+    background-image: linear-gradient(#0d70ea, #0dccea);
+}
+
+
+.button-23 {
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+  }
+  .button-23:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  .button-23:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+  }
+  
+  .button-23:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+  }
+  
+  .button-23:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+  }
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: 1px solid rgb(57, 202, 57);
+}
+
+.form-control textarea {
+  resize: vertical;
+}
+
+.submission-message {
+    background-color: #dff0d8; /* Bootstrap's success alert background color */
+    border: 1px solid #d6e9c6; /* Bootstrap's success alert border color */
+    color: #3c763d; /* Bootstrap's success alert text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+.icon {
+  margin-right: 10px;
+}
