@@ -19,8 +19,8 @@ const Navbar = ({ children }) => {
       icon: <BsFillPersonFill />,
     },
     {
-      path: "/Resume",
-      name: "Resume",
+      path: "/Blog",
+      name: "Blog",
       icon: <FaFileAlt />,
     },
     {
@@ -33,6 +33,11 @@ const Navbar = ({ children }) => {
       name: "Follow Me",
       isHeading: true,
       icon: <FaUsers />,
+    },
+    {
+      path: "https://drive.google.com/file/d/18Jpad9XUrZtARGwe8jdF8r8-o2-keWpE/view?usp=sharing",
+      name: "Resume",
+      icon: <FaFileAlt />,
     },
     {
       name: "LinkedIn",
