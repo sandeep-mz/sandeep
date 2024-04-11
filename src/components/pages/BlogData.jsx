@@ -30,20 +30,22 @@ const blogData = [
     
     {
       id: 4,
-      title: "",
-      author: "Sandeep Mz",
+      title: "Oppo, OnePlus Collaborate With Google",
+      author: "Akash Dutta",
       date: "April 11, 2024",
-      content: "",
-      imageUrl: "",
+      content: "Oppo, OnePlus partner with Google, integrating Gemini 1.0 Ultra AI model for innovative features, enhancing capabilities on their devices.",
+      imageUrl: "https://i.gadgets360cdn.com/large/oppo_google_ai_1712823787231.jpg?downsize=950:*",
+      readMoreUrl: "https://www.gadgets360.com/mobiles/news/oppo-oneplus-collaboration-google-gemini-ai-smartphones-tablets-5418597",
     },
 
     // {
-    //   id: 3,
-    //   title: "Facebook ads used by hackers",
+    //   id: 5,
+    //   title: "",
     //   author: "Sandeep Mz",
     //   date: "April 11, 2024",
     //   content: "",
     //   imageUrl: "",
+    //   readMoreUrl: "",
     // },
   ];
   
