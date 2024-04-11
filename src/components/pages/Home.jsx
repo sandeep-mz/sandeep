@@ -3,8 +3,9 @@ import "../../style/home.css";
 import myProfilePhoto from "../../images/my-avtar.png";
 import { FaLinkedin } from "react-icons/fa";
 import youtube from "../../images/youtube.jpg";
-import sportify from "../../images/spotify-clone.webp";
-import blinkit from "../../images/blinkit.webp";
+import sportify from "../../images/spotify-clone.svg";
+import blinkit from "../../images/blinkit.svg";
+import fdelivery from "../../images/f-delivery.jpg";
 import excel from "../../images/excel.webp";
 import mzshooping from "../../images/shooping.png";
 import food from "../../images/food.png";
@@ -14,6 +15,7 @@ import travel from "../../images/travel.png";
 import postoffice from "../../images/postoffice.png";
 import authentication from "../../images/authentication.avif";
 import submission from "../../images/submission.png";
+import dribbble from "../../images/dribbble.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -56,6 +58,18 @@ const Home = () => {
       <div className="recent-projects">
         <h2>Recent Projects</h2>
         <Slider {...settings}>
+          <a href="https://dribbble-aeonaxy.vercel.app">
+            <div className="projects pro">
+              <img src={dribbble} alt="Project" />
+              <h3>Dribbble</h3>
+              <p>
+                Dribbble website's sign-up flow, created as a part of my web
+                Assignment from <b>Aeonaxy Technologies</b>.Mimics functionality
+                of selecting options before proceeding to verification page.
+              </p>
+            </div>
+          </a>
+
           <a href="https://sandeep-mz.github.io/Excel-clone/">
             <div className="projects pro">
               <img src={excel} alt="Project 1" />
@@ -70,26 +84,15 @@ const Home = () => {
               </p>
             </div>
           </a>
-          <a href="https://sandeep-mz.github.io/blinkit-clone/">
-            <div className="projects pro">
-              <img src={blinkit} alt="Project 2" />
-              <h3>Blinkit Clone</h3>
-              <p>
-                Dive into core web development concepts by constructing a static
-                version of the Blinkit app. This project involves creating an
-                engaging interface using HTML and CSS.
-              </p>
-            </div>
-          </a>
 
-          <a href="https://sandeep-mz.github.io/Spotify-clone/index.html">
+          <a href="https://sandeep-mz.github.io/Week3Contest/">
             <div className="projects pro">
-              <img src={sportify} alt="Project 3" />
-              <h3>Spotify Clone</h3>
+              <img src={fdelivery} alt="Project 3" />
+              <h3>F-Delivery</h3>
               <p>
-                Creation of a Spotify clone using HTML and CSS, The objective is
-                to imitate the primary interfaces and functionality of the
-                Spotify web app..
+                F-delivery platform designed to provide users with a seamless
+                and efficient experience for ordering food system.Leveraging HTML, Bootstrap, JavaScript, and API
+                integration.
               </p>
             </div>
           </a>
@@ -109,7 +112,7 @@ const Home = () => {
       </div>
 
       <div className="iknow">
-        <h2>Recent Projects</h2>
+        <h2>What I know!</h2>
         <div className="sections">
           <div className="asection">
             <h3>Front-End</h3>
@@ -153,7 +156,46 @@ const Home = () => {
       </div>
 
       <div className="moreProject">
-        {/*------------------------ project 1st  */}
+        <h2>Recent Projects</h2>
+        {/* ----------------------------------- */}
+        <div className="mzproject">
+          <div>
+            <img src={blinkit} alt="logo" />
+          </div>
+          <div className="projectTitle">
+            <h3>Blinkit Clone</h3>
+            <p>Html, CSS, Boostrap,UI</p>
+          </div>
+          <div className="mzicon">
+            <a
+              href="https://sandeep-mz.github.io/blinkit-clone/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faArrowRight} />
+            </a>
+          </div>
+        </div>
+
+        {/* -------------------------------- */}
+        <div className="mzproject">
+          <div>
+            <img src={sportify} alt="logo" />
+          </div>
+          <div className="projectTitle">
+            <h3>Sportify UI</h3>
+            <p>Html, CSS, Boostrap</p>
+          </div>
+          <div className="mzicon">
+            <a
+              href="https://sandeep-mz.github.io/Spotify-clone/index.html"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faArrowRight} />
+            </a>
+          </div>
+        </div>
+
+        {/*----------- project 1st-----------*/}
         <div className="mzproject">
           <div>
             <img src={mzshooping} alt="logo" />
@@ -183,8 +225,8 @@ const Home = () => {
             </a>
           </div>
         </div>
-         {/* -----------------------project 3nd  */}
-         <div className="mzproject">
+        {/* -----------------------project 3nd  */}
+        <div className="mzproject">
           <div>
             <img src={book} alt="logo" />
           </div>
@@ -213,8 +255,8 @@ const Home = () => {
             </a>
           </div>
         </div>
-         {/* -----------------------project 5nd  */}
-         <div className="mzproject">
+        {/* -----------------------project 5nd  */}
+        <div className="mzproject">
           <div>
             <img src={travel} alt="logo" />
           </div>
@@ -246,29 +288,38 @@ const Home = () => {
         {/* -----------------------project 7nd  */}
         <div className="mzproject">
           <div>
-            <img src={authentication} alt="logo"/>
+            <img src={authentication} alt="logo" />
           </div>
           <div className="projectTitle">
             <h3>Authentication</h3>
             <p>Html, CSS, JavaScript, React</p>
           </div>
           <div className="mzicon">
-            <a href="https://authentication-nu-eight.vercel.app/" target="_blank">
+            <a
+              href="https://authentication-nu-eight.vercel.app/"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
         </div>
         {/* add more projects here */}
-
       </div>
 
       <div className="extra-mz">
         <div className="pub">
-           <img src={submission} alt="logo" />
-          
+          <img src={submission} alt="logo" />
+
           <div className="extra-title">
             <h3>Paper Publishing of BE Final Years Project</h3>
-            <p>Our team proudly announces the publication of our BE final year project research paper in Recent Innovations in <b>Wireless Network Security</b>. Highlighting key findings and comprehensive analysis, our paper delves into cutting-edge developments, evaluating security protocols, encryption techniques, and intrusion detection systems.</p>
+            <p>
+              Our team proudly announces the publication of our BE final year
+              project research paper in Recent Innovations in{" "}
+              <b>Wireless Network Security</b>. Highlighting key findings and
+              comprehensive analysis, our paper delves into cutting-edge
+              developments, evaluating security protocols, encryption
+              techniques, and intrusion detection systems.
+            </p>
           </div>
         </div>
       </div>

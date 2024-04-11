@@ -1,19 +1,21 @@
 const blogData = [
     {
       id: 1,
-      title: "Introduction to React",
-      author: "John Doe",
-      date: "April 10, 2024",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-      imageUrl: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Mistral Launches 8X22B an Experts AI Model",
+      author: "Akash Dutta",
+      date: "April 11, 2024",
+      content: "Mistral unveils 8X22B AI model, succeeding 8X7B, with expanded parameters. The new release promises enhanced capabilities and builds on previous advancements.",
+      imageUrl: "https://i.gadgets360cdn.com/large/artificial_intelligence_pexels_1712818733517.jpg?downsize=950:*",
+      readMoreUrl: "https://www.gadgets360.com/ai/news/mistral-8x22b-ai-mixture-experts-model-launch-open-source-benchmark-5418144",
     },
     {
       id: 2,
-      title: "CSS Basics",
-      author: "Jane Smith",
+      title: "iPhone 17 Pro Models to Arrive in 2025",
+      author: "David Delima",
       date: "April 11, 2024",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-      imageUrl: "https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      content: "Apple to launch 2nm processor iPhone in 2025, powered by TSMC. The new chipset marks a leap in performance and efficiency, according to reports.",
+      imageUrl: "https://i.gadgets360cdn.com/large/iphone15_pro_apple_1695640733704.jpg?downsize=950:*",
+      readMoreUrl: "https://www.gadgets360.com/mobiles/news/iphone-17-pro-max-apple-2nm-tsmc-chipset-report-5418907",
     },
     // Add more blog data as needed
     {
@@ -21,18 +23,28 @@ const blogData = [
       title: "Facebook ads used by hackers",
       author: "Sandeep Mz",
       date: "April 11, 2024",
-      content: "Hackers are reportedly using a new tactic to promote fake AI services like OpenAI’s Sora, DALL-E and Midjourney. Riding on the AI bandwagon, threat actors are using Facebook’s Sponsored ad system to lure unsuspecting users and infect their systems with password-stealing malware. These malware advertising campaigns involve hijacking existing Facebook pages to impersonate popular AI services that claim offer a sneak peek of upcoming features.",
-      imageUrl: "https://images.indianexpress.com/2024/04/AI-Pixabay-4.jpg?w=640",
+      content: "Hackers are reportedly using Facebook ads to lure unsuspecting users to download AI powered tools like Midjourney, Sora and DALL-E that contain information stealing malware",
+      imageUrl: "https://i.gadgets360cdn.com/large/gemini_15_1712752869015.jpg?downsize=950:*",
+      readMoreUrl: "https://indianexpress.com/article/technology/tech-news-technology/hackers-using-facebook-ads-to-promote-fake-ai-tools-9263958/",
     },
+    
     {
       id: 4,
-      title: "CSS Basics",
-      author: "Jane Smith",
+      title: "",
+      author: "Sandeep Mz",
       date: "April 11, 2024",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-      imageUrl: "https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      content: "",
+      imageUrl: "",
     },
-    // Add more blog data as needed
+
+    // {
+    //   id: 3,
+    //   title: "Facebook ads used by hackers",
+    //   author: "Sandeep Mz",
+    //   date: "April 11, 2024",
+    //   content: "",
+    //   imageUrl: "",
+    // },
   ];
   
   export default blogData;

@@ -34,9 +34,10 @@ function Blog() {
         {filteredBlogData.map((blog) => (
           <div className="blog-card" key={blog.id}>
             <h2>{blog.title}</h2>
-            <p>By {blog.author} | {blog.date}</p>
             <img src={blog.imageUrl} alt={blog.title} />
             <p>{blog.content}</p>
+            <p>By {blog.author} | {blog.date}</p>
+            <a href={blog.readMoreUrl} className="button-4" role="button">Read More</a>
           </div>
         ))}
       </div>
