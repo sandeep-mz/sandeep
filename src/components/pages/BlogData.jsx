@@ -37,6 +37,17 @@ const blogData = [
       imageUrl: "https://i.gadgets360cdn.com/large/oppo_google_ai_1712823787231.jpg?downsize=950:*",
       readMoreUrl: "https://www.gadgets360.com/mobiles/news/oppo-oneplus-collaboration-google-gemini-ai-smartphones-tablets-5418597",
     },
+    {
+        id: 5,
+        title: "World’s Most Powerful Open Source AI Model",
+        author: "Sandeep Mz",
+        date: "Maech 10, 2024",
+        content: "This past Monday, about a dozen engineers and executives at data science and AI company Databricks, connected via Zoom to learn if they had succeeded in building a top AI language model",
+        imageUrl: "https://media.wired.com/photos/660359d1c5394d5463ec7d5f/master/w_1920,c_limit/2024_03_25_Databricks_%20164.jpg",
+        readMoreUrl: "https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/",
+      },
+
+      
 
     // {
     //   id: 5,
