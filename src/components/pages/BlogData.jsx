@@ -41,12 +41,20 @@ const blogData = [
         id: 5,
         title: "World’s Most Powerful Open Source AI Model",
         author: "Sandeep Mz",
-        date: "Maech 10, 2024",
+        date: "March 10, 2024",
         content: "This past Monday, about a dozen engineers and executives at data science and AI company Databricks, connected via Zoom to learn if they had succeeded in building a top AI language model",
         imageUrl: "https://media.wired.com/photos/660359d1c5394d5463ec7d5f/master/w_1920,c_limit/2024_03_25_Databricks_%20164.jpg",
         readMoreUrl: "https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/",
       },
-
+      {
+          id: 6,
+          title: "Top Career Options after BCA",
+          author: "Sandeep Mz",
+          date: "April 12, 2024",
+          content: "BCA or Bachelor of Computer Application is a three-year undergraduate course that imparts students knowledge of basic computing skills and software development.",
+          imageUrl: "https://www.simplilearn.com/ice9/free_resources_article_thumb/How_To_Become_A_Content_Write.jpg",
+          readMoreUrl: "https://www.simplilearn.com/career-options-after-bca-article",
+        },
       
 
     // {

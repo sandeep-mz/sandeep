@@ -59,3 +59,7 @@ main {
 .link-text {
   font-size: 20px;
 }
+
+.mobile-view{
+  display: none;
+}

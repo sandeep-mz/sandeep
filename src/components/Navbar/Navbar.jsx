@@ -1,12 +1,16 @@
-import React from "react";
-import "./navbar.css";
-// import myAvatar from "../../images/my-avtar.png";
-import { FaHome, FaEnvelope, FaFileAlt,FaUsers } from "react-icons/fa";
-import { FaLinkedin, FaGithub, FaYoutube, FaInstagram } from 'react-icons/fa';
+import React, { useState } from "react";
+import "./navbar.css"; //for desktop browsers
+import "./mobileNav.css"; //for mobile browsers
+
+import { FaHome, FaEnvelope, FaFileAlt, FaUsers, FaLinkedin, FaGithub, FaYoutube, FaInstagram, FaBars } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 
 const Navbar = ({ children }) => {
+  
+
+  
+
   const menuItem = [
     {
       path: "/Home",
@@ -28,7 +32,6 @@ const Navbar = ({ children }) => {
       name: "Contact",
       icon: <FaEnvelope />,
     },
-    // Heading and social media links
     {
       name: "Follow Me",
       isHeading: true,
@@ -59,14 +62,14 @@ const Navbar = ({ children }) => {
       path: "https://www.instagram.com/sandeeppmz/",
       icon: <FaInstagram />,
     },
-    // Add more links as needed
   ];
 
   return (
     <div className="container">
+      {/* For mobile view */}
 
-      < div className="sidebar">
-    
+      {/* For desktop view */}
+      <div className="sidebar">
         {menuItem.map((item, index) => (
           <NavLink
             to={item.path}
@@ -76,13 +79,11 @@ const Navbar = ({ children }) => {
             title={item.name} // for tooltip
           >
             <div className="icon">{item.icon}</div>
-            <div className="link-text">
-              {item.name}
-            </div>
+            <div className="link-text">{item.name}</div>
           </NavLink>
         ))}
-
       </div>
+
       <main>{children}</main>
     </div>
   );
