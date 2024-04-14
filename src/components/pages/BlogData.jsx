@@ -9,6 +9,15 @@ const blogData = [
   //   readMoreUrl: "",
   // },
   {
+    id: 8,
+    title: "Microsoft gaming chief will reveal more about Xbox’s",
+    author: "Sandeep Mz",
+    date: "April 14, 2024",
+    content: "Microsoft plans to release its upcoming Xbox exclusives on PlayStation 5 and Nintendo Switch, starting with rumored titles like HiFi Rush and the new Indiana Jones game.",
+    imageUrl: "https://static.toiimg.com/thumb/resizemode-4,msid-107458509,imgsize-348531,width-720/107458509.jpg",
+    readMoreUrl: "https://www.gadgetsnow.com/gaming/microsoft-gaming-chief-will-reveal-more-about-xboxs-vision-for-the-future-next-week/articleshow/107460716.cms",
+  },
+  {
     id: 7,
     title: "Neuralink's first human patient",
     author: "Sandeep Mz",
