@@ -9,6 +9,15 @@ const blogData = [
   //   readMoreUrl: "",
   // },
   {
+    id: 9,
+    title: "7 Google Messages tips and tricks every Android",
+    author: "Sandeep Mz",
+    date: "April 11, 2024",
+    content: "Google Messages, the default SMS and messaging app on most Android phones, has a lot of features you might not have heard about. While users prefer instant messaging apps like Facebook Messenger, WhatsApp.",
+    imageUrl: "https://images.indianexpress.com/2024/04/Google-Messages-1.jpg?w=640",
+    readMoreUrl: "https://indianexpress.com/article/technology/techook/7-google-messages-tips-and-tricks-every-android-user-should-know-9271733/",
+  },
+  {
     id: 8,
     title: "Microsoft gaming chief will reveal more about Xbox’s",
     author: "Sandeep Mz",
