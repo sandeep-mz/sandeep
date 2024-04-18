@@ -9,6 +9,15 @@ const blogData = [
   //   readMoreUrl: "",
   // },
   {
+    id: 10,
+    title: "Android 15 Could Include App Quarantine Feature",
+    author: "Sandeep Mz",
+    date: "April 11, 2024",
+    content: "Android 15 is expected to arrive on Pixel smartphones later this year and several features from Google's upcoming operating system (OS) update have surfaced thanks to the developer previews and the first public beta release",
+    imageUrl: "https://i.gadgets360cdn.com/large/pixel_6_series_google_twitter_1679382479200.jpg?downsize=950:*",
+    readMoreUrl: "https://www.gadgets360.com/mobiles/news/android-15-beta-quarantine-mode-feature-code-report-5470140",
+  },
+  {
     id: 9,
     title: "7 Google Messages tips and tricks every Android",
     author: "Sandeep Mz",
