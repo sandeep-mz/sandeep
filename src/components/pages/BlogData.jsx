@@ -9,6 +9,15 @@ const blogData = [
   //   readMoreUrl: "",
   // },
   {
+    id: 11,
+    title: "Dell launches portfolio of commercial AI laptops",
+    author: "Sandeep Mz",
+    date: "April 20, 2024",
+    content: "Dell Technologies has unveiled its latest arsenal of commercial AI laptops and mobile workstations in India. The new lineup comprises of the Latitude and Precision portfolios.",
+    imageUrl: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202404/662376bb4499c-dells-latest-commercial-ai-laptops-200305821-16x9.jpg?size=948:533",
+    readMoreUrl: "https://www.businesstoday.in/technology/news/story/dell-launches-portfolio-of-commercial-ai-laptops-and-workstations-in-india-426236-2024-04-20",
+  },
+  {
     id: 10,
     title: "Android 15 Could Include App Quarantine Feature",
     author: "Sandeep Mz",
